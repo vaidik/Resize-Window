@@ -23,9 +23,9 @@ then
 	hex=`echo $hex_tmp`
 elif [ $len -eq "8" ]
 then
-	hex1=`echo ${hex_tmp:0:2}`
-	hex2="00"
-	hex3=`echo ${hex_tmp:2:8}`
+#	hex1=`echo ${hex_tmp:0:2}`
+#	hex2="00"
+#	hex3=`echo ${hex_tmp:2:8}`
 	hex=$hex1$hex2$hex3
 else
 	hex=$hex_tmp
